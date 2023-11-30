@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hedvig Letters Sans", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-family: "Open Sans", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: "Sedgwick Ave Display", cursive; */
+  /* font-family: "Ubuntu", sans-serif; */
+}
+
+.navbar_image img {
+  height: 100px;
+  width: 100px;
+}
+/* .hero_image {
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+} */
+.hero_img_class {
+  width: 240rem;
+  height: 550px;
+  /* background: #000; */
+}
+.hero_image {
+  width: 400px;
+  height: 400px;
+  transition: 0.2s;
+}
+.hero_image:hover {
+  width: 450px;
+  height: 450px;
+}
+.hero_section {
+  width: 80%;
+  margin-left: 10rem;
+  display: flex;
+  gap: 8rem;
+}
+.about_section {
+  margin-top: 50px;
+}
+.about_section h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+.abt_me {
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  from {
+    color: red;
+  }
+  to {
+    color: rgb(13, 16, 14);
+  }
+}
+.btn {
+  display: flex;
+  gap: 2rem;
+}
+.resume-btn,
+.hire-btn {
+  padding: 14px 23px;
+  background-color: rgb(237, 15, 15);
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.resume-btn:hover,
+.hire-btn:hover {
+  padding: 15px 24px;
+  background-color: rgb(212, 6, 6);
+  border: 1px solid rgb(25, 23, 23);
+}
